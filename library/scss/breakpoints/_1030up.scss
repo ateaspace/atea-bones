@@ -10,5 +10,6 @@ be seen on the Desktop.
 ******************************************************************/
 
 .wrap {
-  width: 1040px;
+    /* width: 1040px; */
+    width: 982px; /* 2 pixels more to avoid unwanted thin vertical line appearing from background */
 }

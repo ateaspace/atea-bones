@@ -20,6 +20,9 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
+	background-image: url(../images/atea-bg-gray.jpg);
+        background-repeat: no-repeat;
+	background-position: center top;
 	background-color: $gray;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
@@ -152,7 +155,13 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
+/*
 .header {
+	background-color: $black;
+}
+*/
+
+#inner-header {
 	background-color: $black;
 }
 
@@ -251,14 +260,20 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
+/*
 #content {
 	margin-top: 1.5em;
+}
+*/
+
+#inner-content {
+    background-color: $white;
 }
 
 		.hentry {
 			background-color: $white;
 			border-radius: 3px;
-			margin-bottom: 1.5em;
+			/* margin-bottom: 1.5em; */
 			border: 1px solid $border-color;
 
 			header {
@@ -864,6 +879,10 @@ FOOTER STYLES
 	clear: both;
 	background-color: $black;
 	color: $light-gray;
+}
+
+#inner-footer {
+    background-color: #2083BA; /* ***** set up as a variable color !!! */
 }
 
 	/*
