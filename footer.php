@@ -18,8 +18,29 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
+					<p style="text-aligh: right;">
+					      Funded by
+					      <a href="https://www.sftichallenge.govt.nz/our-research/projects/spearhead/atea/">
+					      	National Science Challenges	
+					      </a>
+					      <br />
+					      Collaboration partners:
+					      <a href="https://www.waikato.ac.nz/">
+						University of Waikato
+					      </a>,
+					      <a href="https://www.otago.ac.nz/">
+						University of Otago
+					      </a>,
+					      <a href="https://www.canterbury.ac.nz/">
+						University of Canterbury
+					      </a>,
+					      <a href="https://tehiku.nz/">
+						Te Hiku Media
+					      </a>,
+					      <a href="https://www.facebook.com/TeRauArohaBluff/">
+						Te Rau Aroha Marae
+					      </a>
+					</p>
 				</div>
 
 			</footer>
