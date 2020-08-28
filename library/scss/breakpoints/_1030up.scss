@@ -11,5 +11,5 @@ be seen on the Desktop.
 
 .wrap {
     /* width: 1040px; */
-    width: 982px; /* 2 pixels more to avoid unwanted thin vertical line appearing from background */
+    width: 980px; /* tried 2 pixels more to avoid unwanted thin vertical line appearing from background, but caused padding issue later on */
 }
