@@ -18,7 +18,7 @@
 						)); ?>
 					</nav>
 
-					<p style="text-aligh: right;">
+					<p>
 					      Funded by
 					      <a href="https://www.sftichallenge.govt.nz/our-research/projects/spearhead/atea/">
 					      	National Science Challenges	
