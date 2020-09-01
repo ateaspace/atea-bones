@@ -256,6 +256,71 @@ and more scalable.
 } /* end .nav */
 
 
+/* Info Boxes to Main Page */
+#blurb1, #blurb2, #blurb3, #blurb4 {
+    /*
+    padding: 20px 10px 20px 10px;
+    margin: 20px 10px 20px 20px;
+*/
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 10px;
+
+
+}
+
+#blurb1 {
+    background-image: url(../images/bgBlurbGreen.jpg);
+    background-repeat: repeat-x;
+
+    h2 a {
+	color: #206220;
+    }
+    h2 a:hover, a:focus, a:visited:hover, a:visited:focus {
+	/* color: #103210;*/
+	text-decoration: underline;
+    }
+}
+
+#blurb2 {
+    background-image: url(../images/bgBlurbRed.jpg);
+    background-repeat: repeat-x;
+
+    h2 a {
+	color: #BA2126;
+    }
+    h2 a:hover, a:focus, a:visited:hover, a:visited:focus {
+        /* color: #8A2126;*/
+	text-decoration: underline;
+    }
+
+}
+
+#blurb3 {
+    background-image: url(../images/bgBlurbYellow.jpg);
+    background-repeat: repeat-x;
+
+    h2 a {
+	color: #CCAF23;
+    }
+    h2 a:hover, a:focus, a:visited:hover, a:visited:focus {
+        /* color: #AC8F23; */
+	text-decoration: underline;
+    }
+}
+
+#blurb4 {
+    background-image: url(../images/bgBlurbDarkBlue.jpg);
+    background-repeat: repeat-x;
+
+    h2 a {
+	color: #161A69;
+    }
+    h2 a:hover, a:focus, a:visited:hover, a:visited:focus {
+	/* color: #060A19;*/
+	text-decoration: underline;
+    }
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -282,8 +347,9 @@ POSTS & CONTENT STYLES
 			}
 
 			footer {
-				padding: 1.5em;
-				border-top: 1px solid $light-gray;
+			    /* padding: 1.5em; */
+			    padding: 0.5em;
+				/* border-top: 1px solid $light-gray; */
 
 				p {
 					margin: 0;
@@ -885,6 +951,33 @@ FOOTER STYLES
     background-color: #2083BA; /* ***** set up as a variable color !!! */
 }
 
+#inner-footer p {
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    text-align: right;
+    font-size: 85%;
+}
+
+#inner-footer a {
+    /* color: #bfdeee; */ /* **** consider setting as a variable color */
+    color: #eee;
+    text-decoration: underline;
+}
+
+#inner-footer a:visited {
+    color: #aaa;
+}
+
+#inner-footer {
+    a:hover, a:focus, a:visited:hover, a:visited:focus {
+        color: #fff;
+    }
+}
+/*
+#inner-footer a:hover, #inner-footer a:focus, #inner-footer a:visited:hover, #inner-footer a:visited:focus {
+    color: #fff;
+}
+*/
 	/*
 	if you checked out the link above:
 	http://www.alistapart.com/articles/organizing-mobile/
