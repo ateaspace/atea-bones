@@ -45,6 +45,7 @@ tmp/
 *.log
 *.[Cc]ache
 *.cpr
+*.css.map
 *.orig
 *.php.in
 .idea/
