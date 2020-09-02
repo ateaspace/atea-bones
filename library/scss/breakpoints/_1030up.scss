@@ -9,7 +9,82 @@ be seen on the Desktop.
 
 ******************************************************************/
 
+body {
+    background-image: url(../images/atea-bg-gray-blend5.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
 .wrap {
     /* width: 1040px; */
     width: 980px; /* tried 2 pixels more to avoid unwanted thin vertical line appearing from background, but caused padding issue later on */
 }
+
+h2, .h2 {
+    font-size: 1.35em;
+    line-height: 1.2em;
+    margin-bottom: 0.375em;
+}
+
+
+
+#navTabs
+{
+  margin: 10px 10px -8px 10px;
+}
+
+
+.responsiveDropdownContent {
+  display: block;
+  position: relative;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: none;
+  z-index: 1;
+}
+
+ul.responsiveDropdownContent {
+    margin: revert;
+}
+
+#navTabs ul {
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+#navTabs li {
+    padding: 0px 1px 0px 0px;
+    display: inline;
+    font-weight: bold
+ }
+
+/*
+#navTabs li a {
+    display: block; 
+    min-width: 150px; 
+}
+*/
+
+.responsiveDropbtn {
+    display: none;
+}
+
+.responsiveDropdownContent a {
+  display: inline;
+}
+
+#navTabs #blue a       {padding: 5px 20px 5px 20px;     background: #176593;    color: #FFFFFF; text-decoration: none; }
+#navTabs #red a        {padding: 5px 20px 5px 20px;     background: #751020;    color: #FFFFFF; text-decoration: none; }
+#navTabs #green a      {padding: 5px 20px 5px 20px;     background: #2E7B35;    color: #FFFFFF; text-decoration: none; }
+#navTabs #yellow a     {padding: 5px 20px 5px 20px;     background: #9E9121;    color: #FFFFFF; text-decoration: none; }
+#navTabs #darkblue a   {padding: 5px 20px 5px 20px;     background: #161A69;    color: #FFFFFF; text-decoration: none; }
+#navTabs a             {padding: 5px 20px 5px 20px;     background: #dddcce;    color: #666666; text-decoration: none; }
+#navTabs a:hover       {padding: 5px 20px 5px 20px;     background: #e7e6dc;    color: #666666; text-decoration: none; }
+
+
+
+#subNavText {
+    margin-left:  135px;
+    margin-right: 135px;
+}
+

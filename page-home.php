@@ -16,7 +16,24 @@
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							-->
 
-							<img alt="Atea logo" src="<?php echo get_template_directory_uri(); ?>/library/images/atea-header-image.png" />
+
+
+
+							<div id="subNav">
+							  <div id="subNavText" class="navTextBold">
+
+							    <p>
+							      Nau mai, haere mai ki Ātea. Welcome to Ātea – a Science for
+							      Technological Innovation National Science Spearhead Project. You
+							      will find examples of technological innovations that draw on Māori
+							      protocols and world views to connect Māori to their knowledge,
+							      language, culture, histories, stories and to each other.
+							    </p>
+
+							  </div>
+							</div>
+
+							<img alt="Atea banner-header" style="width: 100%;" src="<?php echo get_template_directory_uri(); ?>/library/images/atea-header-image.png" />
 							
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 <!--

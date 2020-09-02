@@ -103,7 +103,7 @@ you can add resource intensive styles.
 /* Bones used to be 1030 and up -- setting width to 1040 */
 /* Atea style designed for a width of 980 */
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1000px) {
 
 	// styles in 1030up.scss
 	@import "breakpoints/1030up";
