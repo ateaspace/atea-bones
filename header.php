@@ -70,7 +70,7 @@
     </div>
     <ul class="responsiveDropdownContent" id="researchAreasDropdown">
       <li id="blue"><a href="index.php">Home</a></li>
-      <li><a href="/greenstone3/library">Core Content</a></li>
+      <li><a href="index.php/digital-library-core">Core Content</a></li>
       <li><a href="te-reo-technology/">Te Reo Technology</a></li>
       <li><a href="realities/l">Realities</a></li>
       <li><a href="tikanga">Tikanga</a></li>
