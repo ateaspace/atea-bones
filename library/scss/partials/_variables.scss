@@ -22,17 +22,19 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-/*$black:             #323944; */
+$absblack:          #000;
+$abswhite:          #fff;
 $black:             #196692;
-/*$white:             #fff; */
-$white:             #eae8da;
+$white:             #eae8da; /* used for article/page background */
 
 $light-gray:        #f8f9fa;
-/*$gray:              #eaedf2;*/
 $gray:              #2d2d2d;
 $text-color:        #5c6b80;
 $meta-gray:         #9fa6b4;
 
+$tab-gray:          #dddcce;
+$tab-gray-hover:    #e7e6dc; /* lighten($tab-gray,8%); */
+			   
 $tan:               #eceee5;
 
 $green:             #7dd667;
@@ -40,13 +42,32 @@ $green:             #7dd667;
 $bones-pink:        #f01d4f;
 $blue:              #2980b9;
 
+$blurb1-color:      #206220;
+$blurb2-color:      #BA2126;
+$blurb3-color:      #CCAF23;
+$blurb4-color:      #161A69;
+
+/* 
+   The following not currently used: were arrived at by hand.
+   More systematic to work withy darken() 
+*/
+
+/* blurb1-color-hover #103210; */
+/* blurb2-color-hover #8A2126; */
+/* blurb3-color-hover #AC8F23; */
+/* blurb4-color-hover #060A19; */
+
+
 $link-color:        $bones-pink;
 $link-hover:        darken($link-color, 9%);
 
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
 
-
+$footer-link-color:   #ddd;
+$footer-link-hover:   #fff;
+$footer-link-visited: darken($footer-link-color, 20%);
+			    
 /*
 Here's a great tutorial on how to
 use color variables properly:
