@@ -33,7 +33,7 @@ $text-color:        #5c6b80;
 $meta-gray:         #9fa6b4;
 
 $tab-gray:          #dddcce;
-$tab-gray-hover:    #e7e6dc; /* lighten($tab-gray,8%); */
+$tab-gray-hover:    #e7e6dc; /* lighten($tab-gray,8%); ?? */
 			   
 $tan:               #eceee5;
 
@@ -58,8 +58,8 @@ $blurb4-color:      #161A69;
 /* blurb4-color-hover #060A19; */
 
 
-$link-color:        $bones-pink;
-$link-hover:        darken($link-color, 9%);
+$link-color:        darken($text-color, 20%);
+$link-hover:        darken($link-color, 12%);
 
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
