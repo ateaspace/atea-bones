@@ -70,12 +70,12 @@
     </div>
 
     <ul class="responsiveDropdownContent" id="researchAreasDropdown">
-      <li <?php if ($name == "")        printf('id="blue"') ?>   ><a href="index.php">Home</a></li>
-      <li <?php if ($args[0] == "core") printf('id="green"') ?>  ><a href="index.php/digital-library-core">Core Content</a></li>
-      <li <?php if ($args[0] == "tech") printf('id="red"') ?>    ><a href="index.php/te-reo-technology/">Te Reo Technology</a></li>
-      <li <?php if ($args[0] == "real") printf('id="yellow"') ?> ><a href="index.php/realities/">Realities</a></li>
-      <li <?php if ($args[0] == "tika") printf('id="blue"') ?>   ><a href="index.php/tikanga/">Tikanga</a></li>
-  </ul>
+      <li <?php if ($name == "")        printf('id="blue"') ?>   ><a href="<?= home_url(); ?>">Home</a></li>
+      <li <?php if ($args[0] == "core") printf('id="green"') ?>  ><a href="digital-library-core">Core Content</a></li>
+      <li <?php if ($args[0] == "tech") printf('id="red"') ?>    ><a href="te-reo-technology/">Te Reo Technology</a></li>
+      <li <?php if ($args[0] == "real") printf('id="yellow"') ?> ><a href="realities/">Realities</a></li>
+      <li <?php if ($args[0] == "tika") printf('id="darkblue"') ?>   ><a href="tikanga/">Tikanga</a></li>
+    </ul>
   </div> 
 </div>
 
