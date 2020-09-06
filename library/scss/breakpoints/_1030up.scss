@@ -79,8 +79,8 @@ ul.responsiveDropdownContent {
 #navTabs #yellow a     {padding: 5px 20px 5px 20px;     background: #9E9121;    color: $abswhite; text-decoration: none; }
 #navTabs #darkblue a   {padding: 5px 20px 5px 20px;     background: #161A69;    color: $abswhite; text-decoration: none; }
 
-#navTabs a             {padding: 5px 20px 5px 20px;     background: $tab-gray;       color: #666666; text-decoration: none; }
-#navTabs a:hover       {padding: 5px 20px 5px 20px;     background: $tab-gray-hover; color: #666666; text-decoration: none; }
+#navTabs a             {padding: 5px 20px 5px 20px;     background: $tab-gray;       color: $tab-text-color; text-decoration: none; }
+#navTabs a:hover       {padding: 5px 20px 5px 20px;     background: $tab-gray-hover; color: $tab-text-color; text-decoration: none; }
 
 
 
