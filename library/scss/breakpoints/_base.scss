@@ -385,9 +385,26 @@ ul.responsiveDropdownContent {
 
 /* navTabs + combo with ul etc used to be here */
 
-#subNav {
-    clear: both; /* not currently used, given that the subNav is nested now further on, so this doesn't clear the navTabs float left and right */
+/* The following ID used to set 'clear: both'.  Due to restructuring of the nested divs in the nav/banner area, 
+   it is no longer needed here */
+#subNavBlue {
     background-image: url(../images/bgContainerBlue389.png);
+}
+
+#subNavGreen {
+    background-image: url(../images/bgContainerGreen389.png);
+}
+
+#subNavRed {
+    background-image: url(../images/bgContainerRed389.png);
+}
+
+#subNavYellow {
+    background-image: url(../images/bgContainerYellow389.png);
+}
+
+#subNavDarkBlue {
+    background-image: url(../images/bgContainerDarkBlue389.png);
 }
 
 #subNavText {
