@@ -27,7 +27,7 @@
 		<?php // or, set /favicon.ico for IE10 win ?>
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
-            <meta name="theme-color" content="#121212">
+		<meta name="theme-color" content="#121212">
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -68,12 +68,13 @@
       <button class="responsiveDropbtn" style="padding-top: 6px; padding-bottom: 6px; padding-right: 8px; font-weight: bold; color: #666"
 	      onclick="toggleResponsiveDropdown()">Research Areas ▼</button>
     </div>
+
     <ul class="responsiveDropdownContent" id="researchAreasDropdown">
-      <li id="blue"><a href="index.php">Home</a></li>
-      <li><a href="index.php/digital-library-core">Core Content</a></li>
-      <li><a href="te-reo-technology/">Te Reo Technology</a></li>
-      <li><a href="realities/l">Realities</a></li>
-      <li><a href="tikanga">Tikanga</a></li>
+      <li <?php if ($name == "")        printf('id="blue"') ?>   ><a href="index.php">Home</a></li>
+      <li <?php if ($args[0] == "core") printf('id="green"') ?>  ><a href="index.php/digital-library-core">Core Content</a></li>
+      <li <?php if ($args[0] == "tech") printf('id="red"') ?>    ><a href="index.php/te-reo-technology/">Te Reo Technology</a></li>
+      <li <?php if ($args[0] == "real") printf('id="yellow"') ?> ><a href="index.php/realities/">Realities</a></li>
+      <li <?php if ($args[0] == "tika") printf('id="blue"') ?>   ><a href="index.php/tikanga/">Tikanga</a></li>
   </ul>
   </div> 
 </div>
